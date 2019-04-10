@@ -16,10 +16,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.PreviewActivity"
+            android:name="site.recomi.studentmanagement.activity.PreviewActivity"
             android:launchMode="singleTop" />
         <activity
-            android:name=".activity.ChooseFunctionActivity"
+            android:name="site.recomi.studentmanagement.activity.ChooseFunctionActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,20 +29,20 @@
         </activity>
 
         <activity
-            android:name=".activity.SingleImageActivity"
+            android:name="site.recomi.studentmanagement.activity.SingleImageActivity"
             android:configChanges="orientation|screenSize"
             android:launchMode="singleTop" />
 
         <activity
-            android:name=".activity.MultiImageActivity"
+            android:name="site.recomi.studentmanagement.activity.MultiImageActivity"
             android:launchMode="singleTop" />
 
         <activity
-            android:name=".activity.RegisterAndRecognizeActivity"
+            android:name="site.recomi.studentmanagement.activity.RegisterAndRecognizeActivity"
             android:launchMode="singleTop" />
 
         <activity
-            android:name=".activity.FaceManageActivity"
+            android:name="site.recomi.studentmanagement.activity.FaceManageActivity"
             android:launchMode="singleTop" />
 
         <provider

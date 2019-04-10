@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.FaceManageActivity">
+    tools:context="site.recomi.studentmanagement.activity.FaceManageActivity">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -25,6 +25,13 @@
             android:layout_margin="50dp"
             android:layout_gravity="center_horizontal"
             android:onClick="clearFaces"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_faces"/>
+        <Button
+            android:layout_margin="50dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="downloadFaces"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/clear_faces"/>

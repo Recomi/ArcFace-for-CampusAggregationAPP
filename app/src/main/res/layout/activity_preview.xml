@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.PreviewActivity">
+    tools:context="site.recomi.studentmanagement.activity.PreviewActivity">
 
     <TextureView
         android:id="@+id/texture_preview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-    <com.arcsoft.arcfacedemo.widget.FaceRectView
+    <site.recomi.studentmanagement.widget.FaceRectView
         android:id="@+id/face_rect_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
