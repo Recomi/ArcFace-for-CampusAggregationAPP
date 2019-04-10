@@ -397,7 +397,7 @@ public class RegisterAndRecognizeActivity extends AppCompatActivity implements V
                         @Override
                         public void subscribe(ObservableEmitter<Boolean> emitter) {
                             boolean success = FaceServer.getInstance()
-                                    .register(RegisterAndRecognizeActivity.this, nv21.clone(), previewSize.width, previewSize.height, "registered " + faceHelper.getCurrentTrackId());
+                                    .register(RegisterAndRecognizeActivity.this, nv21.clone(), previewSize.width, previewSize.height, "已注册 " + faceHelper.getCurrentTrackId());
                             emitter.onNext(success);
 
                             TextView tv_show_info = findViewById(R.id.tv_show_info);
@@ -414,7 +414,7 @@ public class RegisterAndRecognizeActivity extends AppCompatActivity implements V
 
                                 @Override
                                 public void onNext(Boolean success) {
-                                    String result = success ? "register success!" : "register failed!";
+                                    String result = success ? "注册成功！" : "注册失败！";
                                     Toast.makeText(RegisterAndRecognizeActivity.this, result, Toast.LENGTH_SHORT).show();
                                     registerStatus = REGISTER_STATUS_DONE;
                                 }
